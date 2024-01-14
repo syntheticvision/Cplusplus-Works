@@ -26,6 +26,11 @@ using namespace seneca;
 const int MAX_NO_OF_SAMPLES = 20;
 const int GRAPH_WIDTH = 65;
 
+// prints samples error message
+void samplesFirst()
+{
+   cout << "Number of Samples must be set first!" << endl;
+}
 // SeneGraph program
 int main()
 {
@@ -72,10 +77,4 @@ int main()
       }
    }
    return 0;
-}
-
-// prints samples error message
-void samplesFirst()
-{
-   cout << "Number of Samples must be set first!" << endl;
 }

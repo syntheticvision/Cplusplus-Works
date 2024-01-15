@@ -19,12 +19,13 @@ Date: 14 Jan 2023
 #include <iomanip>
 #include "graph.h"
 #include "io.h"
+#include "io.cpp"
+#include "graph.cpp"
 using namespace std;
 using namespace seneca;
 
 // Maximum number of samples in an graph
 const int MAX_NO_OF_SAMPLES = 20;
-const int GRAPH_WIDTH = 65;
 
 // prints samples error message
 void samplesFirst()

@@ -46,7 +46,7 @@ namespace seneca
     {
         int val = min - 1;
         bool done = false;
-        while (!done)
+        while (!done) //?
         {
             cin >> val;
             if (val < min || val > max)

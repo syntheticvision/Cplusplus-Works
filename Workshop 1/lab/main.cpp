@@ -18,9 +18,10 @@ Date: 14 Jan 2023
 #include <iostream>
 #include <iomanip>
 #include "graph.h"
+#include "graph.cpp"
 #include "io.h"
 #include "io.cpp"
-#include "graph.cpp"
+
 using namespace std;
 using namespace seneca;
 

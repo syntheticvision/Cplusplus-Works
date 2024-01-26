@@ -1,0 +1,13 @@
+Name: Babak Ghafourigivi
+Student ID: 165118233
+Student email: bghafourigivi@myseneca.ca
+Date: 20 Jan 2023
+
+
+This workshop was mostly revising the materials taught in the IPC144 course from the last semester.
+I was mostly okay with the first part as it was guided and easy to understand the codes, However for the DIY part it got a bit tricky specially that I’m very new to C++ language with no prior background in programming.
+To be honest it’s not easy especially the pointers and file concept. I struggled with writing the function for the StMarks source file that would basically call the functions in file and create a table with names and everything. It was very tricky and I had to get help from another student “Siavash Amerigolestan”.
+
+I have understood the concept of pointers better now after studying the materials but when it comes to actually writing something I tend to struggle. I understand the loops and functions and how we can call them and the scope of functions. Modularizing the program and linking everything together.
+
+

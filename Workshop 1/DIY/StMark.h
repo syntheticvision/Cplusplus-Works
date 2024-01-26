@@ -7,7 +7,10 @@ Description
   tests the file module of workshop 1 part 2(DIY)
 Revision History
 -----------------------------------------------------------
-Name            Date            Reason
+Name: Babak Ghafourigivi
+Student ID: 165118233
+Student email: bghafourigivi@myseneca.ca
+Date: 20 Jan 2023
 ***********************************************************************/
 #ifndef SENECA_STMARK_H
 #define SENECA_STMARK_H

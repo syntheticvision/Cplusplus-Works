@@ -12,29 +12,27 @@ Revision History
 Name: Babak Ghafourigivi
 Student ID: 165118233
 Student email: bghafourigivi@myseneca.ca
-Date: 14 Jan 2023
+Date: 20 Jan 2023
 ***********************************************************************/
 
 #include <iostream>
+#include <iomanip>
 #include "io.h"
 #include "graph.h"
 using namespace std;
 
-namespace seneca
-{
-    void printInt(int value, int fieldWidth)
-    {
+namespace seneca {
+
+    void printInt(int value, int fieldWidth) {
         cout << value;
-        for (int i = 0; i < fieldWidth - intDigits(value); i++)
-        {
+        for (int i = 0; i < fieldWidth - intDigits(value); i++) {
             cout << " ";
         }
     }
-    int intDigits(int value)
-    {
+
+    int intDigits(int value) {
         int count = (value == 0);
-        while (value != 0)
-        {
+        while (value != 0) {
             value /= 10;
             ++count;
         }
@@ -42,20 +40,15 @@ namespace seneca
     }
 
     // Performs a fool-proof integer entry
-    int getInt(int min, int max)
-    {
+    int getInt(int min, int max) {
         int val = min - 1;
         bool done = false;
-        while (!done) //?
-        {
+        while (!done) {
             cin >> val;
-            if (val < min || val > max)
-            {
-                cout << "Invalid value!" << endl
-                     << "The value must be between " << min << " and " << max << ": ";
+            if (val < min || val > max) {
+                cout << "Invalid value!" << endl << "The value must be between " << min << " and " << max << ": ";
             }
-            else
-            {
+            else {
                 done = true;
             }
         }
@@ -63,38 +56,12 @@ namespace seneca
     }
 
     // moves the cursor backwards
-    void goBack(int n)
-    {
-        for (int i = 0; i < n; cout << "\b", i++)
-            ;
-    }
-
-    // draw line
-    void labelLine(int n, const char *label)
-    {
-        cout << "+";
-        for (int i = 0; i < n - 2; cout << "-", i++)
-            ;
-        cout << "+";
-        if (label)
-        {
-            goBack(n - 4);
-            cout << label;
-        }
-        cout << endl;
-    }
-    void line(int n)
-    {
-        cout << "+";
-        for (int i = 0; i < n - 2; cout << "-", i++)
-            ;
-        cout << "+";
-        cout << endl;
+    void goBack(int n) {
+        for (int i = 0; i < n; cout << "\b", i++);
     }
 
     // displays the user interface menu
-    int menu(int noOfSamples)
-    {
+    int menu(int noOfSamples) {
         line(28);
         cout << "| No Of Samples: ";
         printInt(noOfSamples, 5);
@@ -109,4 +76,24 @@ namespace seneca
 
         return getInt(0, 3);
     }
+
+    // draw line
+    void labelLine(int n, const char* label) {
+        cout << "+";
+        for (int i = 0; i < n + 2; cout << "-", i++);
+        cout << "+";
+        if (label) {
+            goBack(n);
+            cout << label;
+        }
+        cout << endl;
+    }
+
+    void line(int n) {
+        cout << "+";
+        for (int i = 0; i < n + 2; cout << "-", i++);
+        cout << "+";
+        cout << endl;
+    }
+
 }

@@ -9,10 +9,12 @@
 //
 // Revision History
 // -----------------------------------------------------------
-// Name            Date            Reason
-//
-/////////////////////////////////////////////////////////////////
+Name: Babak Ghafourigivi
+Student ID: 165118233
+Student email: bghafourigivi@myseneca.ca
+Date: 20 Jan 2023
 ***********************************************************************/
+
 #include <iostream>
 #include "StMark.h"
 #include "StMarks.cpp"

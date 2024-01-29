@@ -21,7 +21,7 @@ namespace seneca
 {
     // prints the int value in width of fieldWidth
     void printInt(int value, int fieldWidth);
-    // erturns number of digits in an integer
+    // returns number of digits in an integer
     int intDigits(int value);
     // if the user enters non digit values, the function will hang in an endless loop.
     int getInt(int min, int max);

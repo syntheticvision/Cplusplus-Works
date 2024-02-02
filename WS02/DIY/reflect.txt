@@ -1,0 +1,40 @@
+/***********************************************************************
+// OOP244 Workshop 2 p2 : tester program
+//
+// File	main.cpp
+// Version 1.0
+//
+// Author	Fardad Soleimanloo
+// Description
+//
+// Revision History
+// -----------------------------------------------------------
+// Name: Babak Ghafourigivi
+// Student ID: 165118233
+// Student email: bghafourigivi@myseneca.ca
+// Section: ZAA
+// Date: 01 Feb 2024
+/////////////////////////////////////////////////////////////////
+***********************************************************************/
+
+For the lab part of the workshop, I faced some challenges with the boolean functions and also how to use the fscanf to read 
+from the file. However it was not that much of a deal to figure it out with some reading.
+For the DIY part of the workshop, I struggled a lot with the room.cpp file, specially the print function. although I went 
+through the lessons, it was still very confusing and hard to figure out, mixed with dynamic memory allocation 
+it became more challenging. I asked Siavash Amerigolestan (133733220), and another friend of mine for some 
+help with this workshop. I still don't fully understand everything but it's going better.
+
+ 
+
+   
+ 
+
+     
+      
+ 
+
+ 
+
+          
+
+

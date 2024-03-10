@@ -1,0 +1,15 @@
+/***********************************************************************
+// OOP244 Workshop #4 p2
+// Name: Babak Ghafourigivi
+// Student ID: 165118233
+// Student email: bghafourigivi@myseneca.ca
+// Section: ZAA
+// Date: 1 March 2024
+// I have done all the coding by myself and only partially used internet to figure out a few things.
+***********************************************************************/
+This workshop helped me with the understanding of dynamic memory allocation and how to use 
+constructors and deconstructors. I worked with creating a class with private and public scope.
+creating functions declaration and then building the constructors and deconstructors for the said functions.
+This workshop helped me understanding the dynamic memory allocation and deallocation of the functions that we write.
+Although it's tricky when comes to implementing the functions while working with pointers and mostly taking into account the dynamic memory
+allocation but I understand the concepts better now.

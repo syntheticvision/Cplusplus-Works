@@ -1,0 +1,21 @@
+/***********************************************************************
+// OOP244 Workshop #5 p2: tester program
+//
+// File	main_prof.cpp
+// Version 1.0
+// Author Mohammad Shamas
+// Description
+//
+// Revision History
+// -----------------------------------------------------------
+// Name: Babak Ghafourigivi
+// Student ID: 165118233
+// Student email: bghafourigivi@myseneca.ca
+// Section: ZAA
+// Date: 22 Feb 2024
+// I received help from a friend and also help from the internet.
+***********************************************************************/
+This workshop was a bit challenging because the operator overloading topic is not really easy 
+And I've been struggling a bit in understanding and more so coding some complicated stuff.
+However I managed to finish it with the help of a friend and also a lot of internet research.
+I understand the topic better but still need to study and work on it more to fully grasp it.

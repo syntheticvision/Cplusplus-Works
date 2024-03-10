@@ -1,0 +1,15 @@
+/***********************************************************************
+// OOP244 Workshop #03 p2
+// Name: Babak Ghafourigivi
+// Student ID: 165118233
+// Student email: bghafourigivi@myseneca.ca
+// Section: ZAA
+// Date: 08 Feb 2024
+***********************************************************************/
+
+In this workshop I mostly worked with cin and cout object and also classes such as private or public. 
+Accessing the classes and writing functions based on the functions provided in the header file.
+I struggled a bit with some of the cin and cout properties and how to properly write the codes 
+for the specific requirements of the workshop which is why I asked for help from a friend of mine.
+It's a bit confusing the whole stream library and input/output operators but I keep studying it until 
+I figure it out reasonably.
